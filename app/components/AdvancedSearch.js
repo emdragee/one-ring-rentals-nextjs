@@ -7,10 +7,10 @@ import Container from 'react-bootstrap/Container';
 const AdvancedSearch = () => {
   return (
     <div>
-    <div id="home-advanced-search" class="open">
+    <div id="home-advanced-search" className="open">
     <Container>
     <Row>
-        <div class="form-group">
+        <div className="form-group">
         <div id="opensearch"></div>
             <Form>
                 <Row>
@@ -26,12 +26,11 @@ const AdvancedSearch = () => {
                     </Form.Select>
                 </Col>
                 <Col>
-                <Form.Select aria-label="Default select example">
-                    <option value="" disabled selected>Bedrooms</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                    </Form.Select>
+                <Form.Select defaultValue="Stay...">
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </Form.Select>
                 </Col>
                 <Col>
                     <Form.Control type="text" placeholder="Normal text" />

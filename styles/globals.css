@@ -9,3 +9,66 @@
   background-color: #202833;
   border-color: transparent;
 }
+
+.region-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.region-image {
+  width: 760px;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.image-wrapper:hover .region-image {
+  transform: scale(1.1); /* Slight zoom-in effect on hover */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.overlay h3,
+.overlay .location {
+  color: #fff;
+  margin: 0;
+  text-align: center;
+}
+
+.overlay h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.overlay .location {
+  font-size: 1rem;
+}
+
+.image-wrapper:hover .overlay {
+  opacity: 1; /* Show the overlay on hover */
+}
+
+
+.regions-home-page .region-image {
+  height: 250px !important;
+}

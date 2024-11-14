@@ -67,7 +67,7 @@ export default function RootLayout({ children }) {
         <div className="container">
     <div className="row">
       <div className="col-sm-12">
-        <a href="index.html" className="nav-logo">
+        <a href="/" className="nav-logo">
           <img src="images/logo.png" alt="One Ring Rentals"/>
         </a>
     {/* BEGIN SEARCH */}
@@ -93,11 +93,11 @@ export default function RootLayout({ children }) {
           </button>
 
           <ul className="nav navbar-nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="apod.html">NASA APOS</a></li>
-            <li><a href="travel-guides.html">Travel Guides</a></li>
-            <li><a href="regions.html">Regions</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/apod">NASA APOS</a></li>
+            <li><a href="/travel-guides">Travel Guides</a></li>
+            <li><a href="/regions">Regions</a></li>
+            <li><a href="/contact">Contact</a></li>
           </ul>
         </nav>
     {/* END MAIN MENU  */}
