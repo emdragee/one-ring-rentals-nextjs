@@ -5,7 +5,7 @@ import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 /* import cd boostrap
 import font cnd */
-import { ThemeProvider } from "./context/ThemeContext";
+
 export const metadata = {
   title: "Dynamic Title | My Next.js App",
   description: "Dynamic description",
@@ -21,6 +21,7 @@ export const metadata = {
       },
     ],
     siteName: "My Dynamic Site",
+    link:<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"></link>
   },
 };
 
@@ -86,7 +87,7 @@ export default function RootLayout({ children }) {
         </div>
     {/* END SEARCH  */}
     {/* BEGIN MAIN MENU  */}
-        <nav className="navbar">
+        <nav className="navbar navbar-expand">
           <button id="nav-mobile-btn">
             <i className="fa fa-bars"></i>
           </button>
@@ -108,7 +109,7 @@ export default function RootLayout({ children }) {
         {/* <!---Naviagtion END--> */}
       </header>
         {/* Main content section */}
-        <ThemeProvider>{children}</ThemeProvider>
+        {children}
 
         <footer id="footer">
     <div id="footer-top" className="container">
