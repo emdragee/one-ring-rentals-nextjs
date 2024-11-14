@@ -1,6 +1,7 @@
 import "../styles/globals.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "../styles/globals.css"; // Optional for custom global styles
+/* import cd boostrap
+import font cnd */
+import { ThemeProvider } from "./context/ThemeContext";
 export const metadata = {
   title: "NM Tafe Next.js App",
   description: "A modern application built with Next.js and Bulma",
@@ -9,7 +10,7 @@ export const metadata = {
     description: "A modern web application built with Next.js",
     images: [
       {
-        url: "/logo.png",
+        url: "images/logo.png",
         width: 800,
         height: 600,
         alt: "App Logo",
@@ -22,7 +23,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      
       <body>
+        
         {/* Navbar */}
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
           <div className="container">
@@ -47,17 +50,18 @@ export default function RootLayout({ children }) {
                     Home
                   </a>
                 </li>
+                <li className="nav-item">
+                  <a className="nav-link" aria-current="page" href="/about">
+                    About
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
         </nav>
 
         {/* Main content section */}
-        <main className="py-4">
-          <div className="container">
-            {children} {/* This will render the children (pages) */}
-          </div>
-        </main>
+        <ThemeProvider>{children}</ThemeProvider>
 
         {/* Footer */}
         <footer className="bg-light text-center py-4 mt-4">

@@ -1,1 +1,0 @@
-# one-ring-rentals-nextjs

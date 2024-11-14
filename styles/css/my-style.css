@@ -1,0 +1,27 @@
+.region-image {
+    width: 760px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.regions-home-page .region-image {
+    height: 250px !important;
+}
+/* Carousel button styling */
+.btn-default,.btn-default:focus {
+    background-color: black !important;
+}
+
+/* Carousel picture styling */
+.carousel-overlay {
+    background: black,
+}
+
+.home-guide-image{
+    height: 250px ;
+    object-fit: cover;
+  }
+
+  .nasa-top-info li{
+    list-style: none !important;
+  }
