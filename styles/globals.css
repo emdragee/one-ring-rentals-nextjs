@@ -23,7 +23,7 @@
 
 .region-image {
   width: 760px;
-  height: 200px;
+  height: 500px;
   object-fit: cover;
   display: block;
   transition: transform 0.3s ease;

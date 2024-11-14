@@ -2,13 +2,13 @@
 
 import PopularRegions from "../components/PopularRegions";
 import Regions from "../components/Regions";
-import styles from "./styles.module.css";
+
 
 
 export default function RegionsPage() {
   return (
     <main >
-      <PopularRegions className={styles.regionimage}></PopularRegions>
+      <PopularRegions></PopularRegions>
       <Regions></Regions>
     </main>
   );
