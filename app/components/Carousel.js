@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import CarouselImage from "./CarouselImage";
-// https://react-bootstrap.github.io/docs/components/carousel
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
@@ -10,37 +9,27 @@ function ControlledCarousel() {
     setIndex(selectedIndex);
   };
 
+  const slides = [
+    { text: "First", label: "First slide label", description: "This is the first slide description." },
+    { text: "Second", label: "Second slide label", description: "This is the second slide description." },
+    { text: "Third", label: "Third slide label", description: "This is the third slide description." },
+    { text: "Fourth", label: "Fourth slide label", description: "This is the fourth slide description." },
+  ];
+
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
-      <Carousel.Item>
-        <CarouselImage text="First" />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <CarouselImage text="Third" />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <CarouselImage text="Fourth" />
-        <Carousel.Caption>
-          <h3>Fourth slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <CarouselImage text="Second" />
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+    <div className="carousel-container">
+      <Carousel activeIndex={index} onSelect={handleSelect}>
+        {slides.map((slide, idx) => (
+          <Carousel.Item key={idx}>
+            <CarouselImage text={slide.text} />
+            <Carousel.Caption>
+              <h3>{slide.label}</h3>
+              <p>{slide.description}</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+        ))}
+      </Carousel>
+    </div>
   );
 }
 
