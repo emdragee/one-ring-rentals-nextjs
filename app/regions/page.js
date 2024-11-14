@@ -2,14 +2,13 @@
 
 import PopularRegions from "../components/PopularRegions";
 import Regions from "../components/Regions";
+import styles from "./styles.module.css";
 
 
 export default function RegionsPage() {
   return (
     <main >
-      <h2 className="section-title">Popular Regions</h2>
-      <PopularRegions></PopularRegions>
-      <h2 className="section-title">Regions</h2>
+      <PopularRegions className={styles.regionimage}></PopularRegions>
       <Regions></Regions>
     </main>
   );

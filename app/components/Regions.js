@@ -6,6 +6,7 @@ import Region from "./Region";
 // Regions component (All Regions)
 const Regions = () => (
   <Container  className="pt-4 pb-4">
+    <h2 className="section-title">Regions</h2>
     <Row className="g-4">
       {regionsData.map((region, index) => (
         <Col md={4} sm={6} xs={12} key={index}>
