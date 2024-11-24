@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaRegFilePdf } from "react-icons/fa";
 
 const Guide = ({ name, location, image, description, pdfbrochure, source, imageClass }) => {
   return (
@@ -12,7 +13,7 @@ const Guide = ({ name, location, image, description, pdfbrochure, source, imageC
         <img className={imageClass} src={image} alt={`${name}`} />
       </div>
       <div className="tag">
-        <i className="fa fa-file-pdf-o"></i>
+        <i className="fa fa-file-pdf-o"><FaRegFilePdf /></i>
       </div>
       <div className="info-blog">
         <h3>

@@ -2,6 +2,7 @@ import "../styles/globals.css";
 import "/node_modules/@fortawesome/fontawesome-free/css/all.min.css";
 
 import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
+import { FaSearch } from "react-icons/fa";
 
 /* import cd boostrap
 import font cnd */
@@ -73,7 +74,7 @@ export default function RootLayout({ children }) {
         </a>
     {/* BEGIN SEARCH */}
         <div id="sb-search" className="sb-search">
-        <i className="fas fa-search my-search"></i>
+        <i className="my-search"><FaSearch /></i>
         </div>
     {/* END SEARCH  */}
     {/* BEGIN MAIN MENU  */}
