@@ -1,5 +1,5 @@
 @import "static.css";
-@import "/css/font-awesome.min.css";
+@import "../node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css";
 .sb-search {
   display: flex;
   justify-content: center;
@@ -102,3 +102,22 @@
   height: 250px ;
   object-fit: cover;
 }
+.btn-default:hover, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+  background-color: transparent !important;
+  border-color: #efbb29 !important;
+  color: #efbb29  !important;
+}
+.btn-default, .btn-default:focus {
+  background-color: transparent !important;
+  border-color: rgba(255, 255, 255, 0.5)!important;
+  color: rgba(255, 255, 255, 0.5)!important;
+  font-size: 14px !important;
+
+}
+.carousel-caption {
+  bottom: 15% !important;
+  padding-bottom: 4% !important;
+}
+
+
+
