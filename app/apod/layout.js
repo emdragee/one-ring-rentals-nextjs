@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "NASA APOD",
+  description: "NASA APOD API.",
+};
 export default function Layout({ children }) {
     return (
       <div>
