@@ -1,5 +1,5 @@
 @import "static.css";
-@import "/css/font-awesome.min.css";
+@import "../node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css";
 .sb-search {
   display: flex;
   justify-content: center;
