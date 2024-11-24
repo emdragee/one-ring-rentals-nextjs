@@ -2,6 +2,7 @@
 
 import "../styles/globals.css";
 import "../styles/static.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 // import CarouselComponent from "./components/CarouselComponent";
