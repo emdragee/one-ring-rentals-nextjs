@@ -18,15 +18,16 @@ const AdvancedSearch = () => {
                 <Form.Control type="date" placeholder="Pick date" />
                 </Col>
                 <Col>
-                    <Form.Select aria-label="Default select example">
-                    <option value="" disabled selected>Stay...</option>
+                    <Form.Select>
+                    <option value="">Stay...</option>
                         <option value="1">One</option>
                         <option value="2">Two</option>
                         <option value="3">Three</option>
                     </Form.Select>
                 </Col>
                 <Col>
-                <Form.Select defaultValue="Stay...">
+                <Form.Select>
+                    <option value="defaultValue">Stay...</option>
                     <option value="1">One</option>
                     <option value="2">Two</option>
                     <option value="3">Three</option>

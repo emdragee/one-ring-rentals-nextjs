@@ -1,6 +1,7 @@
 'use client';
 
 import "../styles/globals.css";
+import "../styles/static.css";
 
 
 // import CarouselComponent from "./components/CarouselComponent";
@@ -19,9 +20,9 @@ export default function HomePage() {
    <ControlledCarousel></ControlledCarousel>
    <AdvancedSearch></AdvancedSearch>
    {/* <!-- BEGIN CONTENT WRAPPER --> */}
-      <div class="content">
-        <div class="container">
-          <div class="row">
+      <div className="content">
+        <div className="container">
+          <div className="row">
             <div className="main col-sm-8">
               <div className="col col-sm-13 regions-home-page">
                 <PopularRegions></PopularRegions>
@@ -35,19 +36,19 @@ export default function HomePage() {
             </div>
 
                     {/* <!-- BEGIN SIDEBAR --> */}
-                    <div class="sidebar col-sm-4">
+                    <div className="sidebar col-sm-4">
               {/* <!-- BEGIN SIDEBAR ABOUT --> */}
-              <div class="col-sm-12">
-                <h2 class="section-title">Last minute deals</h2>
-                <ul class="latest-news">
-                  <li class="col-md-12">
-                    <div class="image">
+              <div className="col-sm-12">
+                <h2 className="section-title">Last minute deals</h2>
+                <ul className="latest-news">
+                  <li className="col-md-12">
+                    <div className="image">
                       <a href="blog-detail.html"></a>
                       <img alt="" src="http://placehold.it/100x100" />
                     </div>
 
-                    <ul class="top-info">
-                      <li><i class="fa fa-calendar"></i>Available Now</li>
+                    <ul className="top-info">
+                      <li><i className="fa fa-calendar"></i>Available Now</li>
                     </ul>
 
                     <h4>
@@ -55,15 +56,15 @@ export default function HomePage() {
                       <p>Lossarnach, Eriado</p>
                     </h4>
                   </li>
-                  <li class="col-md-12">
-                    <div class="image">
+                  <li className="col-md-12">
+                    <div className="image">
                       <a href="blog-detail.html"></a>
                       <img alt="" src="http://placehold.it/100x100" />
                     </div>
 
-                    <ul class="top-info">
+                    <ul className="top-info">
                       <li>
-                        <i class="fa fa-calendar"></i>Available on 24 July
+                        <i className="fa fa-calendar"></i>Available on 24 July
                       </li>
                     </ul>
 
@@ -72,14 +73,14 @@ export default function HomePage() {
                       <p>Hyarnustar, Rhovanion</p>
                     </h4>
                   </li>
-                  <li class="col-md-12">
-                    <div class="image">
+                  <li className="col-md-12">
+                    <div className="image">
                       <a href="blog-detail.html"></a>
                       <img alt="" src="http://placehold.it/100x100" />
                     </div>
 
-                    <ul class="top-info">
-                      <li><i class="fa fa-calendar"></i>Available 5 July</li>
+                    <ul className="top-info">
+                      <li><i className="fa fa-calendar"></i>Available 5 July</li>
                     </ul>
 
                     <h4>
@@ -87,14 +88,14 @@ export default function HomePage() {
                       <p>Minhiriath, Eriador</p>
                     </h4>
                   </li>
-                  <li class="col-md-12">
-                    <div class="image">
+                  <li className="col-md-12">
+                    <div className="image">
                       <a href="blog-detail.html"></a>
                       <img alt="" src="http://placehold.it/100x100" />
                     </div>
 
-                    <ul class="top-info">
-                      <li><i class="fa fa-calendar"></i>Available 6 July</li>
+                    <ul className="top-info">
+                      <li><i className="fa fa-calendar"></i>Available 6 July</li>
                     </ul>
 
                     <h4>
@@ -103,20 +104,20 @@ export default function HomePage() {
                     </h4>
                   </li>
                 </ul>
-                <p class="center">
-                  <a class="btn btn-fullcolor" href="#">More deals</a>
+                <p className="center">
+                  <a className="btn btn-fullcolor" href="#">More deals</a>
                 </p>
               </div>
               {/* <!-- END SIDEBAR ABOUT --> */}
 
-              <div class="col-sm-12">
-                <h2 class="section-title">Activity</h2>
-                <ul class="activity">
-                  <li class="col-lg-12">
+              <div className="col-sm-12">
+                <h2 className="section-title">Activity</h2>
+                <ul className="activity">
+                  <li className="col-lg-12">
                     <a href="#"
                       ><img src="http://placehold.it/70x70" alt=""
                     /></a>
-                    <div class="info">
+                    <div className="info">
                       <h5>
                         Sam Minnée reviewed
                         <a href="#">The House With No Windows</a>
@@ -127,11 +128,11 @@ export default function HomePage() {
                       <h6>Just now</h6>
                     </div>
                   </li>
-                  <li class="col-lg-12">
+                  <li className="col-lg-12">
                     <a href="#"
                       ><img src="http://placehold.it/70x70" alt=""
                     /></a>
-                    <div class="info">
+                    <div className="info">
                       <h5>
                         Ingo Schoomer asked a question about
                         <a href="#">The Mistake by the Lake</a>

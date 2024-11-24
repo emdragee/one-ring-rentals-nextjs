@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "Regions",
+  description: "Alll thee regions.",
+};
 export default function Layout({ children }) {
     return (
       <div>

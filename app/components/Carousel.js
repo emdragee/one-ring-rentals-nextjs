@@ -20,15 +20,16 @@ function ControlledCarousel() {
         </Carousel.Caption>
 
       </Carousel.Item>
-      {/* <Carousel.Item>
+      <Carousel.Item>
         <CarouselImage text="Second slide" url="https://images.unsplash.com/photo-1623525047508-4aea4c5a58c4?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)'"/>
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+        <h3 className="caption sfr slider-title">Second slide label</h3>
+          <p  className="caption sfl slider-subtitle">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <a href="#"  className="caption sfb btn btn-default btn-lg">
+                Learn More
+              </a>
         </Carousel.Caption>
-      </Carousel.Item> */}
+      </Carousel.Item> 
     </Carousel>
   );
 }
