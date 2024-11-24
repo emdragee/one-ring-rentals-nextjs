@@ -7,7 +7,7 @@ import Regions from "../components/Regions";
 
 export default function RegionsPage() {
   return (
-    <div className="main col-sm-8">
+    <div className="main col-sm-12">
       <PopularRegions></PopularRegions>
       <Regions></Regions>
     </div>

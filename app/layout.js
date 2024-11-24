@@ -237,8 +237,9 @@ export default function RootLayout({ children }) {
     </div>
     {/* <!-- END COPYRIGHT --> */}
   </footer>
+  <script type='text/javascript' src='config.js'></script>
   </div>
-      </body>
+  </body>
     </html>
   );
 }
