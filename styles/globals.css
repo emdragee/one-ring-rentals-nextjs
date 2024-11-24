@@ -111,6 +111,8 @@
   background-color: transparent !important;
   border-color: rgba(255, 255, 255, 0.5)!important;
   color: rgba(255, 255, 255, 0.5)!important;
+  font-size: 14px !important;
+
 }
 .carousel-caption {
   bottom: 15% !important;
