@@ -47,10 +47,10 @@ const CarouselComponent = () => {
               flexDirection: "column",
             }}
           >
-            <div style={{ textAlign: "center" }}>
+            <div className="carousel-caption" style={{ textAlign: "center" }}>
               <h3>{item.title}</h3>
               <p>{item.subtitle}</p>
-              <a href="#" className="btn btn-default btn-lg">
+              <a href="#">
                 Learn More
               </a>
             </div>

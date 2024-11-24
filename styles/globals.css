@@ -17,10 +17,16 @@
 .my-search:hover{
   color: #202833;
 }
-
+.slider-title {
+  font-family: raleway;
+  font-size: 60px;
+  font-weight: 900;
+  color: #fff;
+  line-height: 60px;
+}
 .carousel-item{
   object-fit: cover;
-  height: 20rem;
+  height: 30rem;
 }
 .btn-fullcolor:hover,
 .btn-fullcolor:active  {

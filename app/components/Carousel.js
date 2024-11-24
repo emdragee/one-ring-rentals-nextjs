@@ -12,9 +12,9 @@ function ControlledCarousel() {
       <Carousel.Item className="carousel-item">
         <CarouselImage className="carousel-img" text="First slide" url="https://images.unsplash.com/photo-1550985164-a0cfcf77eab2?q=80&w=2673&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          <a href="#" className="btn btn-default btn-lg">
+          <h3 className="caption sfr slider-title">First slide label</h3>
+          <p  className="caption sfl slider-subtitle">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <a href="#"  className="caption sfb btn btn-default btn-lg">
                 Learn More
               </a>
         </Carousel.Caption>
