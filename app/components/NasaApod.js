@@ -1,5 +1,9 @@
 'use client'
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
+
+
 const NasaApod = () => {
     const [apodData, setApodData] = React.useState([]);
   
@@ -9,7 +13,7 @@ const NasaApod = () => {
       };
   
       const params = {
-        api_key: mykey,
+        api_key: process.env.NEXT_PUBLIC_NASA_API_KEY,
         count: 3,
       };
   
