@@ -73,18 +73,7 @@ export default function RootLayout({ children }) {
         </a>
     {/* BEGIN SEARCH */}
         <div id="sb-search" className="sb-search">
-          <form>
-            <input
-              className="sb-search-input"
-              placeholder="Search..."
-              type="text"
-              defaultValue=""
-              name="search"
-              id="search"
-            />
-            <input className="sb-search-submit" type="submit" defaultValue="" />
-            <i className="fa fa-search sb-icon-search"></i>
-          </form>
+        <i className="fas fa-search my-search"></i>
         </div>
     {/* END SEARCH  */}
     {/* BEGIN MAIN MENU  */}

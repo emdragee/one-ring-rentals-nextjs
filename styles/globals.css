@@ -1,9 +1,24 @@
 @import "static.css";
 @import "/css/font-awesome.min.css";
+.sb-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #E4E4E4;
+  border-radius: 5px;
+  width: 2.5rem;
+  height: 2.5rem;
+  box-sizing: border-box;
+}
+
 .my-search {
   color: #74777c;
-
+  font-size: 20px;
 }
+.my-search:hover{
+  color: #202833;
+}
+
 .carousel-item{
   object-fit: cover;
   height: 20rem;
