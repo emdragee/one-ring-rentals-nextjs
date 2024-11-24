@@ -1,6 +1,7 @@
 'use client';
 
 import "../styles/globals.css";
+import "../styles/static.css";
 
 
 // import CarouselComponent from "./components/CarouselComponent";

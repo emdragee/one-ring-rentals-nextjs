@@ -15,7 +15,7 @@ export const metadata = {
     description: "Dynamic OG description",
     images: [
       {
-        url: "public/images/logo.png",
+       
         width: 800,
         height: 600,
         alt: "Dynamic Logo",
