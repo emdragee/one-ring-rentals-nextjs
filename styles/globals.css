@@ -1,4 +1,9 @@
 @import "static.css";
+@import "/css/font-awesome.min.css";
+.my-search {
+  color: #74777c;
+
+}
 .carousel-item{
   object-fit: cover;
   height: 20rem;
@@ -71,4 +76,9 @@
 
 .regions-home-page .region-image {
   height: 250px !important;
+}
+/* Travel Guides */
+.home-guide-image{
+  height: 250px ;
+  object-fit: cover;
 }

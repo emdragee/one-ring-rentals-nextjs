@@ -7,6 +7,7 @@ import "../styles/globals.css";
 import ControlledCarousel from "./components/Carousel";
 import AdvancedSearch from "./components/AdvancedSearch";
 import PopularRegions from "./components/PopularRegions";
+import TravelGuideGridIndex from "./components/TravelGuideGridIndex";
 export default function HomePage() {
 
   return (
@@ -23,7 +24,10 @@ export default function HomePage() {
             <div className="main col-sm-8">
               <div className="col col-sm-13 regions-home-page">
                 <PopularRegions></PopularRegions>
-              </div> 
+              </div>
+              <div className="col col-sm-13">
+                <TravelGuideGridIndex></TravelGuideGridIndex>
+              </div>  
             </div>
 
                     {/* <!-- BEGIN SIDEBAR --> */}
