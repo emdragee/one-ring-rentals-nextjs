@@ -111,6 +111,7 @@ export default function RootLayout({ children }) {
         {/* Main content section */}
         {children}
 
+
         <footer id="footer">
     <div id="footer-top" className="container">
       <div className="row">
