@@ -9,7 +9,7 @@ import { FaSearch } from "react-icons/fa";
 import font cnd */
 
 export const metadata = {
-  title: "Dynamic Title | My Next.js App",
+  title: "One Ring Rentals",
   description: "Dynamic description",
   openGraph: {
     title: "Dynamic OG Title",
