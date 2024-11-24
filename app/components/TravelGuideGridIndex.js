@@ -1,6 +1,6 @@
 import React from 'react';
 import Guide from './Guide';
-import travelGuideData from './TravelGuideData';
+import travelGuideData from './travelGuideData';
 
 const TravelGuideGridIndex = ({ className }) => {
   return (
