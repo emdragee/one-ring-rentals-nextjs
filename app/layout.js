@@ -3,6 +3,8 @@ import "/node_modules/@fortawesome/fontawesome-free/css/all.min.css";
 
 import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { FaSearch } from "react-icons/fa";
+const imagePath = '/images/logo.png'; // Use a fixed, correct path
+
 
 /* import cd boostrap
 import font cnd */
@@ -79,7 +81,7 @@ export default function RootLayout({ children }) {
     <div className="row">
       <div className="col-sm-12">
         <a href="/" className="nav-logo">
-          <img src="images/logo.png" alt="One Ring Rentals"/>
+          <img src='/images/logo.png' alt="One Ring Rentals"/>
         </a>
     {/* BEGIN SEARCH */}
         <div id="sb-search" className="sb-search">
